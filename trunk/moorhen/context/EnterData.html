@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+            "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <title>Enter some data</title>
+    </head>
+    <body jwcid="$content$">
+        <span jwcid="@Border">
+            <h1>Enter some data</h1>
+            
+       <span jwcid="@Conditional" condition="ognl:message"> 
+		<span jwcid="@Insert" value="ognl:message">Error message</span>
+       </span>    
+
+<form jwcid="firstForm"  method="POST" action="#"> 
+  <input jwcid="expiryDate"  type="text" value=" " size="12"/> 
+ <input jwcid="@Submit" type="submit" value="Submit" />
+</form>           
+        </span>
+    </body>
+</html>
