@@ -35,11 +35,11 @@
   </classpathentry>
   <classpathentry kind="var" path="MAVEN_REPO/log4j/jars/log4j-1.2.8.jar">
   </classpathentry>
-  <classpathentry kind="var" path="MAVEN_REPO/hivemind/jars/hivemind-1.0.jar">
+  <classpathentry sourcepath="MAVEN_REPO/hivemind/src/hivemind-1.0.zip" kind="var" path="MAVEN_REPO/hivemind/jars/hivemind-1.0.jar">
   </classpathentry>
   <classpathentry kind="var" path="MAVEN_REPO/easymock/jars/easymock-1.1.jar">
   </classpathentry>
-  <classpathentry kind="var" path="MAVEN_REPO/hsqldb/jars/hsqldb-1.7.2-rc5.jar">
+  <classpathentry kind="var" path="MAVEN_REPO/hsqldb/jars/hsqldb-1.7.3.0.jar">
   </classpathentry>
   <classpathentry kind="var" path="MAVEN_REPO/postgresql/jars/postgresql-7.4.1-jdbc3.jar">
   </classpathentry>
