@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<node uin="N-w2q8pte6j8b7brvl23zb">
+		<property name="$metaclass" value="Object"/>
+		<property name="$name" value="actor"/>
+		<property name="@stereotype" value="actor"/>
+		<link uin="L-jj7sjxe6j8b7footv9ey">
+			<property name="$metaclass" value="Message Link"/>
+			<property name="$name" value="invoke main"/>
+			<property name="normalizedIndex" value="0.5"/>
+			<property name="activationUid" value="design:node:::N-4aytaie6j8b7fowkk1b6:N-w2q8pte6j8b7di-9f6nh4"/>
+			<property name="operationDeclaringClass" value="org.apache.hivemind.examples.LoggingMain"/>
+			<property name="operationSignature" value="([QString;)V"/>
+			<property name="operationName" value="main"/>
+			<link uin="Lc0q5rje6j8b7gzfjx7mz">
+				<property name="$metaclass" value="Dependency Link"/>
+				<property name="$name" value="Dependency Link1"/>
+				<participant referencedUin="design:link:::L-jj7sjxe6j8b7footv9ey:N-w2q8pte6j8b7brvl23zb" role="Client">
+				</participant>
+				<participant referencedUin="jdt:e_method:src:org.apache.hivemind.examples.LoggingMain.main:main~[QString;" role="Supplier">
+				</participant>
+			</link>
+			<participant referencedUin="design:node:::N-w2q8pte6j8b7brvl23zb" role="Client">
+			</participant>
+			<participant referencedUin="design:node:::N-w2q8pte6j8b7di-9f6nh4" role="Supplier">
+			</participant>
+		</link>
+		<link uin="L1b7x3ie6j8b7fo18f1dv">
+			<property name="$metaclass" value="Messages Link"/>
+			<property name="$name" value="Messages Link1"/>
+			<participant referencedUin="design:node:::N-w2q8pte6j8b7brvl23zb" role="Client">
+			</participant>
+			<participant referencedUin="design:node:::N-w2q8pte6j8b7di-9f6nh4" role="Supplier">
+			</participant>
+		</link>
+	</node>
+	<node uin="N-w2q8pte6j8b7rt1wanxm">
+		<property name="$metaclass" value="Object"/>
+		<property name="$name" value="service"/>
+		<property name="incomingMessagesHistory" value="design:link:::L-jj7sjxe6j8b7tk-l7h48y:N-w2q8pte6j8b7di-9f6nh4;design:link:::L-jj7sjxe6j8b7vqfblkkn:N-w2q8pte6j8b7di-9f6nh4;design:link:::L-jj7sjxe6j8b7yc5dhwre:N-w2q8pte6j8b7di-9f6nh4"/>
+		<node uin="N-4aytaie6j8b7tk-x405i3">
+			<property name="$metaclass" value="Activation"/>
+			<property name="$name" value="Activation1"/>
+			<property name="messageUid" value="design:link:::L-jj7sjxe6j8b7tk-l7h48y:N-w2q8pte6j8b7di-9f6nh4"/>
+		</node>
+		<node uin="N-4aytaie6j8b7vqt4rpb6">
+			<property name="$metaclass" value="Activation"/>
+			<property name="$name" value="Activation2"/>
+			<property name="messageUid" value="design:link:::L-jj7sjxe6j8b7vqfblkkn:N-w2q8pte6j8b7di-9f6nh4"/>
+		</node>
+		<node uin="N-4aytaie6j8b7yrv8vknu">
+			<property name="$metaclass" value="Activation"/>
+			<property name="$name" value="Activation3"/>
+			<property name="messageUid" value="design:link:::L-jj7sjxe6j8b7yc5dhwre:N-w2q8pte6j8b7di-9f6nh4"/>
+		</node>
+		<link uin="Lc0q5rje6j8b7rt-8eb3on">
+			<property name="$metaclass" value="Dependency Link"/>
+			<property name="$name" value="Dependency Link1"/>
+			<participant referencedUin="design:node:::N-w2q8pte6j8b7rt1wanxm" role="Client">
+			</participant>
+			<participant referencedUin="jdt:e_class:src:org.apache.hivemind.examples.TargetService" role="Supplier">
+			</participant>
+		</link>
+	</node>
+	<node uin="N-w2q8pte6j8b7hejfngfj">
+		<property name="$metaclass" value="Object"/>
+		<property name="$name" value="&lt;static&gt;"/>
+		<property name="incomingMessagesHistory" value="design:link:::L-jj7sjxe6j8b7kgvqghd3:N-w2q8pte6j8b7di-9f6nh4"/>
+		<link uin="Lc0q5rje6j8b7huk4waa4">
+			<property name="$metaclass" value="Dependency Link"/>
+			<property name="$name" value="Dependency Link1"/>
+			<participant referencedUin="design:node:::N-w2q8pte6j8b7hejfngfj" role="Client">
+			</participant>
+			<participant referencedUin="jdt:e_class:bin:org.apache.hivemind.impl.RegistryBuilder" role="Supplier">
+			</participant>
+		</link>
+		<node uin="N-4aytaie6j8b7kg-z96jy">
+			<property name="$metaclass" value="Activation"/>
+			<property name="$name" value="Activation1"/>
+			<property name="messageUid" value="design:link:::L-jj7sjxe6j8b7kgvqghd3:N-w2q8pte6j8b7di-9f6nh4"/>
+		</node>
+	</node>
+	<node uin="N-w2q8pte6j8b7di-9f6nh4">
+		<property name="$metaclass" value="Object"/>
+		<property name="$name" value="&lt;static&gt;"/>
+		<property name="incomingMessagesHistory" value="design:link:::L-jj7sjxe6j8b7footv9ey:N-w2q8pte6j8b7brvl23zb"/>
+		<link uin="L-jj7sjxe6j8b7yc5dhwre">
+			<property name="$metaclass" value="Message Link"/>
+			<property name="$name" value="invoke exceptionThrower"/>
+			<property name="normalizedIndex" value="0.5"/>
+			<property name="predecessorUid" value="design:node:::N9zg7mwe6j8b7xwo27bpg:N-w2q8pte6j8b7di-9f6nh4"/>
+			<property name="activationUid" value="design:node:::N-4aytaie6j8b7yrv8vknu:N-w2q8pte6j8b7rt1wanxm"/>
+			<property name="operationDeclaringClass" value="org.apache.hivemind.examples.TargetService"/>
+			<property name="operationSignature" value="()V"/>
+			<property name="operationName" value="exceptionThrower"/>
+			<link uin="Lc0q5rje6j8b7z7s40s7q">
+				<property name="$metaclass" value="Dependency Link"/>
+				<property name="$name" value="Dependency Link1"/>
+				<participant referencedUin="design:link:::L-jj7sjxe6j8b7yc5dhwre:N-w2q8pte6j8b7di-9f6nh4" role="Client">
+				</participant>
+				<participant referencedUin="jdt:e_method:src:org.apache.hivemind.examples.TargetService.exceptionThrower:exceptionThrower" role="Supplier">
+				</participant>
+			</link>
+			<participant referencedUin="design:node:::N-w2q8pte6j8b7di-9f6nh4" role="Client">
+			</participant>
+			<participant referencedUin="design:node:::N-w2q8pte6j8b7rt1wanxm" role="Supplier">
+			</participant>
+		</link>
+		<link uin="L1b7x3ie6j8b7tk-v8buzh">
+			<property name="$metaclass" value="Messages Link"/>
+			<property name="$name" value="Messages Link3"/>
+			<participant referencedUin="design:node:::N-w2q8pte6j8b7di-9f6nh4" role="Client">
+			</participant>
+			<participant referencedUin="design:node:::N-w2q8pte6j8b7rt1wanxm" role="Supplier">
+			</participant>
+		</link>
+		<node uin="N-s3gpqwe6j8b80y-gu7sa0">
+			<property name="$metaclass" value="Catch Block"/>
+			<property name="$name" value="Catch Block1"/>
+			<property name="normalizedIndex" value="0.85714287"/>
+			<property name="predecessorUid" value="design:link:::L-jj7sjxe6j8b7footv9ey:N-w2q8pte6j8b7brvl23zb"/>
+			<property name="parameter" value="ApplicationRuntimeException ex"/>
+		</node>
+		<link uin="Lc0q5rje6j8b7dx-o3py7g">
+			<property name="$metaclass" value="Dependency Link"/>
+			<property name="$name" value="Dependency Link1"/>
+			<participant referencedUin="design:node:::N-w2q8pte6j8b7di-9f6nh4" role="Client">
+			</participant>
+			<participant referencedUin="jdt:e_class:src:org.apache.hivemind.examples.LoggingMain" role="Supplier">
+			</participant>
+		</link>
+		<node uin="N9zg7mwe6j8b7xwo27bpg">
+			<property name="$metaclass" value="Try Block"/>
+			<property name="$name" value="Try Block1"/>
+			<property name="normalizedIndex" value="0.71428573"/>
+			<property name="predecessorUid" value="design:link:::L-jj7sjxe6j8b7footv9ey:N-w2q8pte6j8b7brvl23zb"/>
+		</node>
+		<link uin="L1b7x3ie6j8b7nx-h0fcqg">
+			<property name="$metaclass" value="Messages Link"/>
+			<property name="$name" value="Messages Link2"/>
+			<participant referencedUin="design:node:::N-w2q8pte6j8b7di-9f6nh4" role="Client">
+			</participant>
+			<participant referencedUin="design:node:::N-w2q8pte6j8b7m6-v747gy" role="Supplier">
+			</participant>
+		</link>
+		<link uin="L-jj7sjxe6j8b7kgvqghd3">
+			<property name="$metaclass" value="Message Link"/>
+			<property name="$name" value="invoke constructDefaultRegistry"/>
+			<property name="normalizedIndex" value="0.14285715"/>
+			<property name="predecessorUid" value="design:link:::L-jj7sjxe6j8b7footv9ey:N-w2q8pte6j8b7brvl23zb"/>
+			<property name="activationUid" value="design:node:::N-4aytaie6j8b7kg-z96jy:N-w2q8pte6j8b7hejfngfj"/>
+			<property name="operationDeclaringClass" value="org.apache.hivemind.impl.RegistryBuilder"/>
+			<property name="operationSignature" value="()Lorg.apache.hivemind.Registry;"/>
+			<property name="operationName" value="constructDefaultRegistry"/>
+			<link uin="Lc0q5rje6j8b7kv59erxo">
+				<property name="$metaclass" value="Dependency Link"/>
+				<property name="$name" value="Dependency Link1"/>
+				<participant referencedUin="design:link:::L-jj7sjxe6j8b7kgvqghd3:N-w2q8pte6j8b7di-9f6nh4" role="Client">
+				</participant>
+				<participant referencedUin="jdt:e_method:bin:org.apache.hivemind.impl.RegistryBuilder.constructDefaultRegistry:constructDefaultRegistry" role="Supplier">
+				</participant>
+			</link>
+			<participant referencedUin="design:node:::N-w2q8pte6j8b7di-9f6nh4" role="Client">
+			</participant>
+			<participant referencedUin="design:node:::N-w2q8pte6j8b7hejfngfj" role="Supplier">
+			</participant>
+		</link>
+		<node uin="N-4aytaie6j8b7fowkk1b6">
+			<property name="$metaclass" value="Activation"/>
+			<property name="$name" value="Activation1"/>
+			<property name="messageUid" value="design:link:::L-jj7sjxe6j8b7footv9ey:N-w2q8pte6j8b7brvl23zb"/>
+		</node>
+		<link uin="L1b7x3ie6j8b7kg7028ra">
+			<property name="$metaclass" value="Messages Link"/>
+			<property name="$name" value="Messages Link1"/>
+			<participant referencedUin="design:node:::N-w2q8pte6j8b7di-9f6nh4" role="Client">
+			</participant>
+			<participant referencedUin="design:node:::N-w2q8pte6j8b7hejfngfj" role="Supplier">
+			</participant>
+		</link>
+		<link uin="L-jj7sjxe6j8b7vqfblkkn">
+			<property name="$metaclass" value="Message Link"/>
+			<property name="$name" value="invoke buildList"/>
+			<property name="normalizedIndex" value="0.5714286"/>
+			<property name="predecessorUid" value="design:link:::L-jj7sjxe6j8b7footv9ey:N-w2q8pte6j8b7brvl23zb"/>
+			<property name="activationUid" value="design:node:::N-4aytaie6j8b7vqt4rpb6:N-w2q8pte6j8b7rt1wanxm"/>
+			<property name="operationDeclaringClass" value="org.apache.hivemind.examples.TargetService"/>
+			<property name="operationSignature" value="(QString;I)QList;"/>
+			<property name="operationName" value="buildList"/>
+			<property name="arguments" value="&quot;HiveMind&quot;,4"/>
+			<link uin="Lc0q5rje6j8b7w6-gq6nch">
+				<property name="$metaclass" value="Dependency Link"/>
+				<property name="$name" value="Dependency Link1"/>
+				<participant referencedUin="design:link:::L-jj7sjxe6j8b7vqfblkkn:N-w2q8pte6j8b7di-9f6nh4" role="Client">
+				</participant>
+				<participant referencedUin="jdt:e_method:src:org.apache.hivemind.examples.TargetService.buildList:buildList~QString;~I" role="Supplier">
+				</participant>
+			</link>
+			<participant referencedUin="design:node:::N-w2q8pte6j8b7di-9f6nh4" role="Client">
+			</participant>
+			<participant referencedUin="design:node:::N-w2q8pte6j8b7rt1wanxm" role="Supplier">
+			</participant>
+		</link>
+		<link uin="L-jj7sjxe6j8b7tk-l7h48y">
+			<property name="$metaclass" value="Message Link"/>
+			<property name="$name" value="invoke voidMethod"/>
+			<property name="normalizedIndex" value="0.42857146"/>
+			<property name="predecessorUid" value="design:link:::L-jj7sjxe6j8b7footv9ey:N-w2q8pte6j8b7brvl23zb"/>
+			<property name="activationUid" value="design:node:::N-4aytaie6j8b7tk-x405i3:N-w2q8pte6j8b7rt1wanxm"/>
+			<property name="operationDeclaringClass" value="org.apache.hivemind.examples.TargetService"/>
+			<property name="operationSignature" value="(QString;)V"/>
+			<property name="operationName" value="voidMethod"/>
+			<property name="arguments" value="&quot;Hello&quot;"/>
+			<link uin="Lc0q5rje6j8b7u0-mnfadh">
+				<property name="$metaclass" value="Dependency Link"/>
+				<property name="$name" value="Dependency Link1"/>
+				<participant referencedUin="design:link:::L-jj7sjxe6j8b7tk-l7h48y:N-w2q8pte6j8b7di-9f6nh4" role="Client">
+				</participant>
+				<participant referencedUin="jdt:e_method:src:org.apache.hivemind.examples.TargetService.voidMethod:voidMethod~QString;" role="Supplier">
+				</participant>
+			</link>
+			<participant referencedUin="design:node:::N-w2q8pte6j8b7di-9f6nh4" role="Client">
+			</participant>
+			<participant referencedUin="design:node:::N-w2q8pte6j8b7rt1wanxm" role="Supplier">
+			</participant>
+		</link>
+		<link uin="L-jj7sjxe6j8b7nxgcsq25">
+			<property name="$metaclass" value="Message Link"/>
+			<property name="$name" value="invoke getService"/>
+			<property name="normalizedIndex" value="0.2857143"/>
+			<property name="predecessorUid" value="design:link:::L-jj7sjxe6j8b7footv9ey:N-w2q8pte6j8b7brvl23zb"/>
+			<property name="activationUid" value="design:node:::N-4aytaie6j8b7nx2eaikf:N-w2q8pte6j8b7m6-v747gy"/>
+			<property name="operationDeclaringClass" value="org.apache.hivemind.Registry"/>
+			<property name="operationSignature" value="(Ljava.lang.Class;)Ljava.lang.Object;"/>
+			<property name="operationName" value="getService"/>
+			<property name="arguments" value="TargetService.class"/>
+			<link uin="Lc0q5rje6j8b7oc-j1fi1">
+				<property name="$metaclass" value="Dependency Link"/>
+				<property name="$name" value="Dependency Link1"/>
+				<participant referencedUin="design:link:::L-jj7sjxe6j8b7nxgcsq25:N-w2q8pte6j8b7di-9f6nh4" role="Client">
+				</participant>
+				<participant referencedUin="jdt:e_method:bin:org.apache.hivemind.Registry.getService:getService~Ljava.lang.Class;" role="Supplier">
+				</participant>
+			</link>
+			<participant referencedUin="design:node:::N-w2q8pte6j8b7di-9f6nh4" role="Client">
+			</participant>
+			<participant referencedUin="design:node:::N-w2q8pte6j8b7m6-v747gy" role="Supplier">
+			</participant>
+		</link>
+	</node>
+	<node uin="N-w2q8pte6j8b7m6-v747gy">
+		<property name="$metaclass" value="Object"/>
+		<property name="$name" value="registry"/>
+		<property name="incomingMessagesHistory" value="design:link:::L-jj7sjxe6j8b7nxgcsq25:N-w2q8pte6j8b7di-9f6nh4"/>
+		<node uin="N-4aytaie6j8b7nx2eaikf">
+			<property name="$metaclass" value="Activation"/>
+			<property name="$name" value="Activation1"/>
+			<property name="messageUid" value="design:link:::L-jj7sjxe6j8b7nxgcsq25:N-w2q8pte6j8b7di-9f6nh4"/>
+		</node>
+		<link uin="Lc0q5rje6j8b7mmrksylw">
+			<property name="$metaclass" value="Dependency Link"/>
+			<property name="$name" value="Dependency Link1"/>
+			<participant referencedUin="design:node:::N-w2q8pte6j8b7m6-v747gy" role="Client">
+			</participant>
+			<participant referencedUin="jdt:e_class:bin:org.apache.hivemind.Registry" role="Supplier">
+			</participant>
+		</link>
+	</node>
+</nodeSet>

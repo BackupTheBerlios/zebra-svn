@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V574ng9e6j88o2m-ehaf48">
+		<property name="$defaultDiagram" value="true"/>
+		<property name="$metaclass" value="Package Diagram"/>
+		<reference referencedUin="jdt:e_class:src:com.anite.moorhen.helloWorldSamples.EnterData">
+			<property name="bounds" value="20,20,123,79"/>
+		</reference>
+	</view>
+</nodeSet>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V21xx84e6j8b6nwdbvb4i">
+		<property name="$metaclass" value="Sequence Diagram"/>
+		<property name="@url" value="element://model:project::moorhen/jdt:e_method:src:org.apache.hivemind.examples.LoggingMain.main:main~[QString;"/>
+		<reference referencedUin="design:node:::N-w2q8pte6j8b7hejfngfj">
+			<property name="$shortcutReference" value="true"/>
+			<property name="undoTag" value="1111321808921"/>
+			<property name="seq_bounds" value="626,30,131,355"/>
+			<reference referencedUin="design:node:::N-4aytaie6j8b7kg-z96jy:N-w2q8pte6j8b7hejfngfj">
+				<property name="seq_bounds" value="684,120,14,20"/>
+			</reference>
+		</reference>
+		<reference referencedUin="design:node:::N-w2q8pte6j8b7brvl23zb">
+			<property name="$shortcutReference" value="true"/>
+			<property name="undoTag" value="1111321808921"/>
+			<property name="seq_bounds" value="30,30,52,355"/>
+			<reference referencedUin="design:link:::L-jj7sjxe6j8b7footv9ey:N-w2q8pte6j8b7brvl23zb">
+				<property name="sendingInstant" value="115"/>
+				<property name="processingDuration" value="190"/>
+				<property name="sourceAnchor" value="96,207"/>
+				<property name="targetAnchor" value="212,207"/>
+			</reference>
+		</reference>
+		<reference referencedUin="design:node:::N-w2q8pte6j8b7di-9f6nh4">
+			<property name="$shortcutReference" value="true"/>
+			<property name="undoTag" value="1111321808921"/>
+			<property name="seq_bounds" value="212,30,118,355"/>
+			<reference referencedUin="design:link:::L-jj7sjxe6j8b7vqfblkkn:N-w2q8pte6j8b7di-9f6nh4">
+				<property name="sendingInstant" value="195"/>
+				<property name="processingDuration" value="20"/>
+				<property name="sourceAnchor" value="330,207"/>
+				<property name="targetAnchor" value="1034,207"/>
+			</reference>
+			<reference referencedUin="design:link:::L-jj7sjxe6j8b7nxgcsq25:N-w2q8pte6j8b7di-9f6nh4">
+				<property name="sendingInstant" value="145"/>
+				<property name="processingDuration" value="20"/>
+				<property name="sourceAnchor" value="330,215"/>
+				<property name="targetAnchor" value="917,215"/>
+			</reference>
+			<reference referencedUin="design:node:::N-4aytaie6j8b7fowkk1b6:N-w2q8pte6j8b7di-9f6nh4">
+				<property name="seq_bounds" value="264,115,14,190"/>
+			</reference>
+			<reference referencedUin="design:node:::N-s3gpqwe6j8b80y-gu7sa0:N-w2q8pte6j8b7di-9f6nh4">
+				<property name="initialInstant" value="275"/>
+				<property name="seq_bounds" value="273,275,14,20"/>
+			</reference>
+			<reference referencedUin="design:link:::L-jj7sjxe6j8b7tk-l7h48y:N-w2q8pte6j8b7di-9f6nh4">
+				<property name="sendingInstant" value="170"/>
+				<property name="processingDuration" value="20"/>
+				<property name="sourceAnchor" value="330,215"/>
+				<property name="targetAnchor" value="1034,215"/>
+			</reference>
+			<reference referencedUin="design:link:::L-jj7sjxe6j8b7kgvqghd3:N-w2q8pte6j8b7di-9f6nh4">
+				<property name="sendingInstant" value="120"/>
+				<property name="processingDuration" value="20"/>
+				<property name="sourceAnchor" value="330,215"/>
+				<property name="targetAnchor" value="626,215"/>
+			</reference>
+			<reference referencedUin="design:link:::L-jj7sjxe6j8b7yc5dhwre:N-w2q8pte6j8b7di-9f6nh4">
+				<property name="sendingInstant" value="244"/>
+				<property name="processingDuration" value="20"/>
+				<property name="sourceAnchor" value="330,199"/>
+				<property name="targetAnchor" value="1034,199"/>
+			</reference>
+			<reference referencedUin="design:node:::N9zg7mwe6j8b7xwo27bpg:N-w2q8pte6j8b7di-9f6nh4">
+				<property name="initialInstant" value="220"/>
+				<property name="processingDuration" value="54"/>
+				<property name="seq_bounds" value="273,220,14,54"/>
+			</reference>
+		</reference>
+		<reference referencedUin="design:node:::N-w2q8pte6j8b7m6-v747gy">
+			<property name="$shortcutReference" value="true"/>
+			<property name="undoTag" value="1111321808921"/>
+			<property name="seq_bounds" value="917,30,94,355"/>
+			<reference referencedUin="design:node:::N-4aytaie6j8b7nx2eaikf:N-w2q8pte6j8b7m6-v747gy">
+				<property name="seq_bounds" value="957,145,14,20"/>
+			</reference>
+		</reference>
+		<reference referencedUin="design:node:::N-w2q8pte6j8b7rt1wanxm">
+			<property name="$shortcutReference" value="true"/>
+			<property name="seq_bounds" value="1034,30,118,355"/>
+			<reference referencedUin="design:node:::N-4aytaie6j8b7yrv8vknu:N-w2q8pte6j8b7rt1wanxm">
+				<property name="seq_bounds" value="1086,244,14,20"/>
+			</reference>
+			<reference referencedUin="design:node:::N-4aytaie6j8b7tk-x405i3:N-w2q8pte6j8b7rt1wanxm">
+				<property name="seq_bounds" value="1086,170,14,20"/>
+			</reference>
+			<reference referencedUin="design:node:::N-4aytaie6j8b7vqt4rpb6:N-w2q8pte6j8b7rt1wanxm">
+				<property name="seq_bounds" value="1086,195,14,20"/>
+			</reference>
+		</reference>
+	</view>
+</nodeSet>

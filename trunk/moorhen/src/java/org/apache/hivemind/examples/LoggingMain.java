@@ -21,6 +21,10 @@ import org.apache.hivemind.impl.RegistryBuilder;
 public class LoggingMain
 {
 
+	/**
+	 * @url element://model:project::moorhen/design:view:::V21xx84e6j8b6nwdbvb4i
+	 */
+
     public static void main(String[] args)
     {
         Registry registry = RegistryBuilder.constructDefaultRegistry();

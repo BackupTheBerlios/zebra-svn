@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V574ng9e6j88nw3gbka64">
+		<property name="$defaultDiagram" value="true"/>
+		<property name="$metaclass" value="Package Diagram"/>
+		<reference referencedUin="design:view:::V574ng9e6j88o2m-ehaf48">
+			<property name="bounds" value="20,20,121,70"/>
+		</reference>
+		<reference referencedUin="design:view:::V574ng9e6l5djjszaga1r">
+			<property name="bounds" value="160,63,72,70"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:com.anite.moorhen.Version">
+			<property name="bounds" value="151,20,55,24"/>
+		</reference>
+	</view>
+</nodeSet>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V574ng9e6j89ke8-9kn0ob">
+		<property name="$defaultDiagram" value="true"/>
+		<property name="$metaclass" value="Package Diagram"/>
+		<reference referencedUin="design:view:::V574ng9e6j89kfj-xk8qau">
+			<property name="bounds" value="10,250,178,161"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:org.apache.hivemind.examples.Multiplier">
+			<property name="bounds" value="10,139,99,69"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:org.apache.hivemind.examples.Calculator">
+			<property name="bounds" value="189,153,70,40"/>
+			<reference referencedUin="jdt:l_gnt:src:org.apache.hivemind.examples.Calculator:Divider">
+				<property name="sourceAnchor" value="206,153"/>
+				<property name="targetAnchor" value="111,79"/>
+			</reference>
+			<reference referencedUin="jdt:l_gnt:src:org.apache.hivemind.examples.Calculator:Subtracter">
+				<property name="sourceAnchor" value="241,153"/>
+				<property name="targetAnchor" value="337,79"/>
+			</reference>
+			<reference referencedUin="jdt:l_gnt:src:org.apache.hivemind.examples.Calculator:Adder">
+				<property name="sourceAnchor" value="224,153"/>
+				<property name="targetAnchor" value="224,79"/>
+			</reference>
+			<reference referencedUin="jdt:l_gnt:src:org.apache.hivemind.examples.Calculator:Multiplier">
+				<property name="sourceAnchor" value="189,173"/>
+				<property name="targetAnchor" value="109,173"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:org.apache.hivemind.examples.CalculatorMain">
+			<property name="bounds" value="208,250,97,53"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:org.apache.hivemind.examples.LoggingMain">
+			<property name="bounds" value="279,150,89,53"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:org.apache.hivemind.examples.ExampleUtils">
+			<property name="bounds" value="388,150,133,53"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:org.apache.hivemind.examples.Subtracter">
+			<property name="bounds" value="286,10,103,69"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:org.apache.hivemind.examples.Divider">
+			<property name="bounds" value="66,10,91,69"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:org.apache.hivemind.examples.Adder">
+			<property name="bounds" value="177,10,89,69"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:org.apache.hivemind.examples.TargetService">
+			<property name="bounds" value="409,10,138,95"/>
+		</reference>
+	</view>
+</nodeSet>
