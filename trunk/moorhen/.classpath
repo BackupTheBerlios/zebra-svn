@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <classpath>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="com.iw.plugins.spindle.core.TAPESTRY_FRAMEWORK"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="output" path="context/WEB-INF/classes"/>
+  <classpathentry excluding="" kind="src" path="src/java">
+  </classpathentry>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+  </classpathentry>
+  <classpathentry kind="var" path="MAVEN_REPO/commons-digester/jars/commons-digester-1.5.jar">
+  </classpathentry>
+  <classpathentry kind="var" path="MAVEN_REPO/commons-logging/jars/commons-logging-1.0.2.jar">
+  </classpathentry>
+  <classpathentry kind="var" path="MAVEN_REPO/commons-beanutils/jars/commons-beanutils-1.6.1.jar">
+  </classpathentry>
+  <classpathentry kind="var" path="MAVEN_REPO/commons-fileupload/jars/commons-fileupload-1.0.jar">
+  </classpathentry>
+  <classpathentry kind="var" path="MAVEN_REPO/commons-lang/jars/commons-lang-1.0.jar">
+  </classpathentry>
+  <classpathentry kind="var" path="MAVEN_REPO/oro/jars/oro-2.0.6.jar">
+  </classpathentry>
+  <classpathentry kind="var" path="MAVEN_REPO/javassist/jars/javassist-2.5.1.jar">
+  </classpathentry>
+  <classpathentry kind="var" path="MAVEN_REPO/ognl/jars/ognl-2.6.3.jar">
+  </classpathentry>
+  <classpathentry kind="var" path="MAVEN_REPO/bsf/jars/bsf-2.3.0.jar">
+  </classpathentry>
+  <classpathentry kind="var" path="MAVEN_REPO/commons-codec/jars/commons-codec-1.2.jar">
+  </classpathentry>
+  <classpathentry kind="var" path="MAVEN_REPO/tapestry/jars/tapestry-3.0.1.jar">
+  </classpathentry>
+  <classpathentry kind="var" path="MAVEN_REPO/junit/jars/junit-3.8.1.jar">
+  </classpathentry>
+  <classpathentry kind="var" path="MAVEN_REPO/log4j/jars/log4j-1.2.8.jar">
+  </classpathentry>
+  <classpathentry kind="var" path="MAVEN_REPO/hsqldb/jars/hsqldb-1.7.2-rc5.jar">
+  </classpathentry>
+  <classpathentry kind="var" path="MAVEN_REPO/postgresql/jars/postgresql-7.4.1-jdbc3.jar">
+  </classpathentry>
+  <classpathentry kind="output" path="context/WEB-INF/classes">
+  </classpathentry>
 </classpath>
