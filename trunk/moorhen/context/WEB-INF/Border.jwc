@@ -7,7 +7,7 @@
     allow-body="yes"
     allow-informal-parameters="no">
     <description>
-        add a description
+		initial outside border component
     </description>
     <component id="outsideShell" type="Shell">
         <static-binding name="doctype">
@@ -17,5 +17,9 @@
         <static-binding name="title">
             Moorhens rule
         </static-binding>
+    </component>
+
+
+ 	<component id="inspector" type="contrib:InspectorButton">
     </component>
 </component-specification>

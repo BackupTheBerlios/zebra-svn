@@ -7,6 +7,9 @@
     <description>
         add a description
     </description>
+    <page name="EnterDataSuccess"
+        specification-path="HelloWorldSamples/EnterDataSuccess.page"/>
+    <page name="EnterData" specification-path="HelloWorldSamples/EnterData.page"/>
     <page name="HelloTable"
         specification-path="HelloWorldSamples/HelloTable.page"/>
     <page name="Home" specification-path="Home.page"/>
