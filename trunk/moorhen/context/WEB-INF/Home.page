@@ -7,7 +7,12 @@
 <page-specification class="org.apache.tapestry.html.BasePage">
 
     <description>add a description</description>
-    
-    
+
+
+
+ 	<component id="hellodirect" type="DirectLink">
+ 		<binding name="listener" expression="your.expression.goes.here"/>
+ 	</component>
+
     
 </page-specification>
