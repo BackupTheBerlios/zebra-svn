@@ -93,7 +93,7 @@
 		<dependency>
 			<groupId>commons-logging</groupId>
 			<artifactId>commons-logging</artifactId>
-			<version>1.0.2</version>
+			<version>1.0.3</version>
 			<properties>
 				<war.bundle>true</war.bundle>
 			</properties>
@@ -157,6 +157,25 @@
 			</properties>
 		</dependency>
 		<!-- End Tapestry -->
+		<!-- Extra Hivemind Stuff -->
+		<dependency>
+			<groupId>hivemind</groupId>
+			<artifactId>hivemind</artifactId>
+			<version>1.0</version>
+			<url>http://jakarta.apache.org/hivemind</url>
+			<properties>
+				<war.bundle>true</war.bundle>
+			</properties>
+		</dependency>
+		<dependency>
+		    <groupId>easymock</groupId>
+		    <artifactId>easymock</artifactId>
+		    <version>1.1</version>
+		    <properties>
+				<war.bundle>true</war.bundle>
+			</properties>
+		</dependency>
+		<!-- End Extra Hivemind Stuff -->
 		<!-- Maven Plugins stuff -->
 		<dependency>
 			<groupId>maven-plugins</groupId>
